@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Practice
+comment1.params=
+comment1.target=void\ interfacePractice()
+comment2.params=
+comment2.target=void\ genericsPractice()
+comment3.params=
+comment3.target=void\ equalsPractice()
+comment4.params=
+comment4.target=void\ hashCodePractice()
+comment5.params=
+comment5.target=void\ hashSetPractice()
+comment6.params=
+comment6.target=void\ linkedListPractice()
+comment7.params=
+comment7.target=void\ linkedListAsAQueuePractice()
+comment8.params=
+comment8.target=void\ priorityQueuePractice()
+comment9.params=p1\ p2
+comment9.target=int\ compare(PuzzlePath,\ PuzzlePath)
+numComments=10

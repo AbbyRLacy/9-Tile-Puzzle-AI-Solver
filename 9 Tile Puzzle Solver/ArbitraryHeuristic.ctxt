@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ArbitraryHeuristic
+comment0.text=\r\n\ Just\ for\ testing\ purposes,\ this\ heuristic\ gives\ an\ arbitrary\ (but\ consistent)\r\n\ value\ for\ distance.\ It's\ based\ on\ the\ hash\ code\ of\ the\ given\ state.\r\n\ \r\n\ @author\ Steven\ Bogaerts\r\n
+comment1.params=state
+comment1.target=int\ distance(PuzzleState)
+numComments=2

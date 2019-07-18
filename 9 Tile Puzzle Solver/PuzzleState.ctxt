@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PuzzleState
+comment0.text=\r\n\ Represents\ a\ state\ (placement\ of\ tiles)\ of\ the\ puzzle.\r\n\ Starter\ code.\r\n\ @author\ Steven\ Bogaerts\r\n
+comment1.params=initialTiles
+comment1.target=PuzzleState(int[])
+comment1.text=\r\n\ Assumes\ that\ initialTiles\ is\ the\ valid\ format\:\r\n\ length\ 9,\r\n\ containing\ the\ integers\ 0\ through\ 8\ inclusive\ in\ some\ order\r\n\ with\ no\ repeats\r\n\ where\ 0\ represents\ the\ blank.\r\n
+comment2.params=tile
+comment2.target=int\ posOf(int)
+comment2.text=\r\n\ Returns\ the\ position\ of\ a\ given\ tile\ in\ the\ puzzle\ state.\r\n\ Returns\ -1\ if\ not\ found.\ (Should\ never\ happen\ for\ valid\ input.)\r\n
+comment3.params=index
+comment3.target=int\ getTileAt(int)
+comment3.text=\r\n\ Returns\ the\ tile\ value\ at\ the\ given\ index\ (0\ through\ 8,\ inclusive).\r\n
+comment4.params=
+comment4.target=java.util.LinkedList\ expand()
+comment4.text=\r\n\ Returns\ a\ list\ of\ PuzzleStates\ that\ can\ be\ reached\ from\ this\ PuzzleState\r\n\ in\ one\ move.\ It's\ easiest\ to\ think\ of\ this\ as\ moving\ the\ blank.\r\n
+comment5.params=other
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ Returns\ true\ if\ two\ PuzzleState\ objects\ are\ equivalent,\r\n\ false\ otherwise.\ Required\ for\ proper\ operation\ of\ a\ HashSet\ of\ PuzzleStates.\r\n
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\r\n\ Required\ to\ be\ able\ to\ have\ a\ HashSet\ of\ PuzzleState\ objects.\r\n\ Objects\ for\ which\ .equals()\ returns\ true\ must\ have\ the\ same\ hashCode.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Returns\ a\ String\ representation\ of\ the\ state.\r\n
+numComments=8

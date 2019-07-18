@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=NoHeuristic
+comment0.text=\r\n\ This\ is\ a\ "dummy"\ heuristic\ for\ use\ by\ BFS.\r\n\ @author\ Steven\ Bogaerts\r\n
+comment1.params=state
+comment1.target=int\ distance(PuzzleState)
+numComments=2
